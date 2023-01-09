@@ -1,0 +1,95 @@
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://images.unsplash.com/photo-1465479423260-c4afc24172c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid purple; */
+    position: absolute;
+    left: 30px;
+    top: 12px;
+}
+
+.left img{
+    width: 84px;
+}
+
+.left div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    /* border: 2px solid orange; */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.search{
+    margin: 0px 9px;
+    padding: 6px 30px;
+    border-radius: 7px;
+    font-size: medium;
+}
+
+.container{
+    /* border: 2px solid gainsboro; */
+    box-shadow: 2px 2px 3px 2px;
+    margin: 100px 50px;
+    padding:  50px;
+    width: 30%;
+    border-radius: 6px;
+}
+
+h1{
+    font-size: 33px;
+}
+
+.btn{
+    margin: 0px 9px;
+    color: black;
+    background-color: white;
+    padding: 6px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.btn:hover{
+    background-color: darkgray;
+}
